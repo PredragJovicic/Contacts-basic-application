@@ -1,0 +1,6 @@
+key strore
+password: contactme123
+
+alias:
+key:kontaktirajme
+password:contactme123

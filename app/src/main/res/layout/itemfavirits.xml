@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/itemfavoritslauout"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/removefav"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:foregroundGravity="right"
+        android:src="@drawable/ic_remuve_favorits" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/item_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/favoritsimg"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/circle_shape_favorit"
+            android:src="@drawable/ic_favoritsimg" />
+
+        <TextView
+            android:id="@+id/favoritsdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/favoritsimg"
+            android:layout_marginTop="17dp"
+            android:text="Naziv"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/tetxtcolor" />
+
+        <TextView
+            android:id="@+id/favoritstel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/favoritsdata"
+            android:fontFamily="sans-serif"
+            android:text="+38162687846"
+            android:textAlignment="center"
+            android:textColor="@color/telnumber" />
+    </RelativeLayout>
+
+</RelativeLayout>

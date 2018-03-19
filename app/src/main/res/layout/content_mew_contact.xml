@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="brzocitanje.aplikacija.moji.contactme.NewContact"
+    tools:showIn="@layout/activity_mew_contact">
+
+    <EditText
+        android:id="@+id/newname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="17dp"
+        android:background="@color/tetxtcolor"
+        android:fontFamily="sans-serif"
+        android:hint="Name"
+        android:inputType="textCapSentences"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/newsurname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/tetxtcolor"
+        android:fontFamily="sans-serif"
+        android:hint="Surname"
+        android:inputType="textCapSentences"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/newtel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/tetxtcolor"
+        android:fontFamily="sans-serif"
+        android:hint="Tel"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/addnew"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="7dp"
+        android:background="@color/tetxtcolor"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColorHint="@color/tetxtcolor" />
+
+</LinearLayout>

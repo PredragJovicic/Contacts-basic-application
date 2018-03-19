@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#444d83</color>
+    <color name="fab">#e394f9</color>
+    <color name="tetxtcolor">#ffffff</color>
+    <color name="backgroundfavotits">#4e5bab</color>
+    <color name="underline">#353c66</color>
+    <color name="telnumber">#bcc4f4</color>
+</resources>

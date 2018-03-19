@@ -1,1 +1,5 @@
 # Contacts-basic-application
+
+## Opis aplikacije 
+
+Pocetni ekran se zadrzava 2.5 sekunde i onda otvara listu sa kantaktima grupisanim po prvom slovu i sortiranim po prezimenu. Uradio sam unos kontakaka bez unosa slike (postavlja default avatara) i aktivira se klikom na lebdecu ikonicu +, novi kontakt je automacki sortiran. Skinuo sa avatar ikonice sa neta, da ne stoje one bazicne iz adroid studija. Kreirao sa klasu Database koja simulira bazu za upis kontakata kako bi aplikacija bila dinamicka ( ako na starani favirites izbrisete kontakt iz favorites on se takav prikazuje i na pocetnoj). Nisam uradio refresh strane posle brisanja iz favorites, vec samo promenim stanje adaptera, efekat je isti. Nisam uspeo da provalim koji je font sa slike pa sam koristio sans-serif. Na strane contacts i favorits se ulazi klikom na gornje ikonice. U folderu apk/release nalazi se apk verzija koju sam testirao na telefonu. Platforna je android 6.0
